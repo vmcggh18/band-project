@@ -20,8 +20,8 @@ h5 {
 		font-weight: 400;
 		font-size: 1.0em;
 		color: #880000;
-	}	
-
+	}
+	
 
 .uppercase {
 	text-transform: uppercase;
@@ -252,3 +252,116 @@ li a:hover {
  .social-links li a i:hover{
      background: #6495ED;
  }
+ 
+ /*     page 2 styles              */
+ .background-info {
+	 margin: auto;
+	 
+ }
+ 
+ figure.members {
+	 flex: 1;
+	 box-sizing: border-box;
+	 text-align: center;
+	 padding-left: 25px;
+	 padding-top: 10px;
+	 padding-right: 25px;
+ }
+
+ figcaption {
+font-family: "Roboto", sans-serif;	 
+font-weight: 500;
+padding: 5px;
+ }
+ .btn-custom {
+	background-color: rgba(255,255,204,0.3);
+	color: 	#8B0000;
+    border: 2px solid gray; 
+ }
+ .btn-custom:hover {
+	 transition: all 1s ease-in-out;
+ }
+ .glyphicon-picture {
+	  width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    line-height: 7px;
+    color: 	#fafafa;
+    background: #FF6347;
+	transition: all .1s ease-in-out;
+	 -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+ }
+ .glyphicon-picture:hover {
+	 background: #6495ED; 
+ }
+ 
+  .about-band {
+	 padding-left: 25px;
+	 padding-right: 25px;
+}
+.description {
+  flex: 3;
+  flex-direction: column;
+}
+.narrative1 {
+	font-family: "Roboto", sans-serif;	 
+	font-weight: 400;
+	color: #880000;
+}
+.fa-download {
+	 width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    line-height: 7px;
+    color: #fafafa;
+    background:  #FF6347;
+	margin-bottom: 50px;
+     -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+.fa-download:hover {
+	background: #6495ED;
+}
+.download-wiki-pdf {
+	color: #FF6347;
+}
+/*   Audio files     */
+.audio-container {
+    padding-top: 25px;
+}
+.responsive {
+    height: 300px;
+    width: 300px;
+}
+.audio-file img{
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+    display: block;
+}	
+
+audio {
+	 max-width: 300px;
+	 width: 100%;
+	 margin: auto;
+	 display: block;
+	 
+}
+.audio-title {
+	padding-bottom: 5px;
+}
+/*   about page media query    */
+/* Allows elements to un-stack on screen sizes larger than 767px  */
+@media screen and (min-width:767px) {
+.background-info {
+	 display: flex;
+	 justify-content: space-between;	
+}
+}
