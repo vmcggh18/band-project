@@ -334,7 +334,8 @@ padding: 5px;
 }
 /*   Audio files     */
 .audio-container {
-    padding-top: 25px;
+    padding: 25px;
+    margin: 0;
 }
 .responsive {
     height: 300px;
