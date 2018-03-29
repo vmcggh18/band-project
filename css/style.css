@@ -409,12 +409,66 @@ button[type="submit"] {
 	 display: block;
 	 margin: auto;
   }
-  /*gallery page details*/
+  /*------gallery page details-------------*/
 
 
+ .gallery-heading {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+}
+.gallery-heading {
+	font-family: "Exo", sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	color:#880000;
+	text-align: center;
+	
+	
+}
 
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+ /* justify-content: space-evenly;*/
+ 
+  
+}
+.gal-image {
+	
+	/*height: 300px;
+	width: 300px;*/
+	
+}
+.gal-image img {
+/*	height: 300px; */
+	width: 300px;
+	max-width: 100%;
+	height: auto;
+	padding: 15px;
+	
+	}
+.image-title {
+	font-family: "Robotpo", sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color:#880000;
+	text-align: center;
+}
+/*.footer-container-fluid {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}*/
 
-
+.social-links {
+	 padding-top: 25px;
+ }
+      
 
 /*   about page media query    */
 /* Allows elements to un-stack on screen sizes larger than 767px  */
