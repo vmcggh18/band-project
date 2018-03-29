@@ -361,6 +361,61 @@ audio {
 .audio-title {
 	padding-bottom: 5px;
 }
+/*       contact page details     */	
+
+.bookinginfo {
+	  margin: auto;
+  }
+.infoheading, .bookingheading {
+	font-family: "Indie Flower", cursive, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 15px;
+	padding-right: 15px;
+	text-align: center;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+.lead {
+     color: #880000;
+	 text-align: center;
+	 font-size: 1.5em;
+     margin: 10px 0;
+}
+ .center-booking-form, .center-infoform {
+      padding-top: 10px;
+      margin: 0 auto;
+      max-width: 70%;  
+}
+button[type="submit"] {
+      margin: auto;
+	  border-radius: 50%;
+  }
+  
+.band-image {
+   max-width: 300px;
+   height: 300px;
+   display: block;
+   margin: auto;
+ }
+ .bw-image {
+	
+	 
+ }
+.soc-list {
+ list-style-type: none;
+  }
+.social-refs {
+	 display: block;
+	 margin: auto;
+  }
+  /*gallery page details*/
+
+
+
+
+
+
 /*   about page media query    */
 /* Allows elements to un-stack on screen sizes larger than 767px  */
 @media screen and (min-width:767px) {
