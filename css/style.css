@@ -256,21 +256,17 @@ footer {
      background: #6495ED;
  }
  
- /*     page 2 styles              */
+ /*------     page 2 styles --------------*/
  .background-info {
 	 margin: auto;
-	 
  }
- 
- figure.members {
+.members {
 	 flex: 1;
-	 box-sizing: border-box;
 	 text-align: center;
 	 padding-left: 25px;
 	 padding-top: 10px;
 	 padding-right: 25px;
  }
-
  figcaption {
 font-family: "Roboto", sans-serif;	 
 font-weight: 500;
@@ -285,7 +281,7 @@ padding: 5px;
 	 transition: all 1s ease-in-out;
  }
  .glyphicon-picture {
-	  width: 32px;
+	width: 32px;
     height: 32px;
     padding: 12px;
     border-radius: 50%;
@@ -334,6 +330,11 @@ padding: 5px;
 }
 .download-wiki-pdf {
 	color: #FF6347;
+}
+.download-text {
+	font-family: "Exo", sans-serif;	 
+	font-weight: 500;
+	color: #880000;	    
 }
 /*   Audio files     */
 .audio-container {
