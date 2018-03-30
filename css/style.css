@@ -22,7 +22,6 @@ h5 {
 		color: #880000;
 	}
 	
-
 .uppercase {
 	text-transform: uppercase;
 }
@@ -31,7 +30,7 @@ h5 {
 }
 /*-------------------heading-------------*/
 header {
-    margin: 0;
+    margin: 25px 0px;
 	 background-color: rgba(255,255,204,0.0);
 }
 
@@ -111,6 +110,9 @@ header {
     color: #FF6347;
     font-size: 26px;
 }
+.menuitem a span:hover {
+     background: rgba(122,179,184,0.2);
+}
 .menuitem span {
     display: block;
     width: 100%;
@@ -124,7 +126,7 @@ header {
  /*      section       */
 section {
 	padding-bottom: 25px;
-	background-color: rgba(255,255,204,0.3);
+	background-color: rgba(255,255,204,0.0);
 }
 video {
     max-width: 100%;
@@ -137,7 +139,14 @@ video {
 .video-caption {
 	   text-align: center;
 	   font-family: "Roboto", sans-serif;
+	   color: #880000;
+	   padding-top: 5px;
    }
+   mark {
+       color:#880000;
+       font-weight: 500;
+   }
+   
 .years-sales {
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -145,7 +154,7 @@ video {
 	text-align: center;
     color: rgb(128, 128, 128);
 	margin-bottom: 25px;
-	margin-top: 50px;
+	margin-top: 25px;
 } 
 .slogan2 {
     font-family: "Indie Flower", cursive, sans-serif;
@@ -155,7 +164,8 @@ video {
 	text-align: center;
     color: rgb(255, 0, 0);
 	text-shadow: 4px 4px 4px #aaa;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
+	padding-top: 20px;
 	margin-bottom: 25px;
 }
 .button {
@@ -193,13 +203,16 @@ video {
   text-decoration: none;
 }
 	/*--------footer----------*/
-	
+footer {
+    background-color: rgba(255,255,204,0.0);
+    min-height: 120px;
+	margin: 0;
+}	
 .available, .information  {
 	font-family: "Exo", sans-serif;
 		font-weight: 500;
 		font-size: 1.2em;
 		text-align: center;
-		
 }
 .general-request {
 		text-align: center;
@@ -208,17 +221,11 @@ video {
 .follow-request {
 		text-align: center;
 	}
-
-footer {
-    background-color: rgba(255,255,204,0.0);
-    min-height: 120px;
-	margin: 0;
-}
 .btn-lg {
 		border-radius: 50%;
 		font-family: "Exo", sans-serif;
 		color: white;
-		font-weight: 700;
+		font-weight: 500;
 }
 .request {
     display: block;
@@ -227,21 +234,17 @@ footer {
  li a {
 	color: #FF6347;
 	text-decoration: none;
-	
-}
-li a:hover {
-	text-decoration: none;
 }
 .social-links {
     padding-bottom: 15px;
 }
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px;
+    width: 25px;
+    height:25px;
+    padding: 7px;
     border-radius: 50%;
-    font-size: 1em;
-    line-height: 7px;
+    font-size: 1.0em;
+    line-height: 8px;
     color: #fafafa;
     background:  #FF6347;
 	margin-bottom: 50px;
@@ -313,7 +316,7 @@ padding: 5px;
 	color: #880000;
 }
 .fa-download {
-	 width: 32px;
+	width: 32px;
     height: 32px;
     padding: 12px;
     border-radius: 50%;
