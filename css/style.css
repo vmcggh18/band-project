@@ -256,15 +256,24 @@ footer {
      background: #6495ED;
  }
  
- /*------     page 2 styles --------------*/
+ /*-----About Page  elements-------------      */
+ .about-the-band {
+     background-color: rgba(255,255,204,0.2);
+     padding: 0;
+     margin: 0;
+    
+ }
  .background-info {
 	 margin: auto;
+	 display: flex;
+	 flex-wrap: wrap;
+	 
  }
 .members {
-	 flex: 1;
+    flex: 1;
 	 text-align: center;
 	 padding-left: 25px;
-	 padding-top: 10px;
+	 padding-top: 30px;
 	 padding-right: 25px;
  }
  figcaption {
@@ -272,12 +281,13 @@ font-family: "Roboto", sans-serif;
 font-weight: 500;
 padding: 5px;
  }
- .btn-custom {
+ .btn-sm {
 	background-color: rgba(255,255,204,0.3);
 	color: 	#8B0000;
     border: 2px solid gray; 
+    border: none;
  }
- .btn-custom:hover {
+ .btn-sm:hover {
 	 transition: all 1s ease-in-out;
  }
  .glyphicon-picture {
@@ -303,8 +313,7 @@ padding: 5px;
 	 padding-right: 25px;
 }
 .description {
-  flex: 3;
-  flex-direction: column;
+    flex: 3;
 }
 .narrative1 {
 	font-family: "Roboto", sans-serif;	 
@@ -476,9 +485,9 @@ button[type="submit"] {
 
 /*   about page media query    */
 /* Allows elements to un-stack on screen sizes larger than 767px  */
-@media screen and (min-width:767px) {
+/*@media screen and (min-width:767px) {
 .background-info {
 	 display: flex;
 	 justify-content: space-between;	
 }
-}
+}*/
