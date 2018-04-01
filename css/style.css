@@ -168,7 +168,44 @@ mark {
 	padding-top: 20px;
 	margin-bottom: 25px;
 }
-.button {
+.btn-custom-2 {
+   background-color: rgba(255,255,204,0.4);
+    border: 2px solid gray;
+    padding: 10px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none;
+    font-size: 100%;
+    margin: 15px auto;
+	width:250px;
+	height: 50px;
+    cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 5px 5px #aaa;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center; 
+
+}
+.text-color {
+	 color: #8B0000;
+}
+.btn-custom-2:hover { 
+	background-color: #F2F3F4;
+	text-decoration: none;
+	transition: all 1s ease-in-out;
+}
+.fa-format {
+	font-size: 20px;
+	color: red;
+}
+.fa-format:hover {
+	font-size: 20px;
+	color: #6495ED; 
+}
+
+
+/*.button {
 	background-color: #008B8B;
     border: none;
     color: white;
@@ -201,7 +238,7 @@ mark {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   text-decoration: none;
-}
+}*/
 	/*--------footer----------*/
 footer {
     background-color: rgba(255,255,204,0.0);
@@ -418,22 +455,18 @@ audio {
   .soc-list li a:hover {
       background-color: rgba(122,179,184,0.0);
   }
-  /*------gallery page details-------------*/
+  /*------gallery page styles-------------*/
 
 
  .gallery-heading {
 	display: flex;
 	flex: 1;
 	justify-content: space-around;
-}
-.gallery-heading {
 	font-family: "Exo", sans-serif;
 	font-size: 1.5em;
 	font-weight: 500;
 	color:#880000;
 	text-align: center;
-	
-	
 }
 
 .gallery {
@@ -443,18 +476,8 @@ audio {
   height: 100vh;
   align-items: center;
   justify-content:center;
- /* justify-content: space-evenly;*/
- 
-  
-}
-.gal-image {
-	
-	/*height: 300px;
-	width: 300px;*/
-	
 }
 .gal-image img {
-/*	height: 300px; */
 	width: 300px;
 	max-width: 100%;
 	height: auto;
@@ -468,17 +491,9 @@ audio {
 	color:#880000;
 	text-align: center;
 }
-/*.footer-container-fluid {
-    display: flex;
-    flex: 1;
-    margin-top: 20px;
-}*/
-
 .social-links {
 	 padding-top: 25px;
  }
-      
-
 /* contact page media query    */
 /* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
 @media screen and (min-width:767px) {
@@ -487,7 +502,8 @@ audio {
     width: 33%;
     margin: auto;
 }
-     .center-booking-form, .center-infoform {
+/*reduces form width to 70% on larger screen sizes*/
+.center-booking-form, .center-infoform {
       margin: 0 auto;
       max-width: 70%;  
 }
