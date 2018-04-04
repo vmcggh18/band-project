@@ -17,7 +17,7 @@ h4 {
 	}
 h5 {
 		font-family: "Exo", sans-serif;
-		font-weight: 400;
+		font-weight: 500;
 		font-size: 1.0em;
 		color: #880000;
 	}
@@ -45,7 +45,7 @@ header {
    margin: auto; 
 }
 
-.img-responsive {
+.logo-img {
 	margin-top: 40px;
 	opacity: 0.7;
 }
@@ -91,6 +91,7 @@ header {
 }
 #nav li {
     padding: 0;
+    font-family: "Exo", sans-serif;
 }
 
 .menuitem {
@@ -124,7 +125,7 @@ header {
     letter-spacing: 2px;
 }
  /*---------home page mid section -------*/
-section {
+.brand2 {
 	padding-bottom: 25px;
 	background-color: rgba(255,255,204,0.2);
 }
@@ -134,7 +135,7 @@ video {
 	display: block;
 	position: relative;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 25px;
    }
 .video-caption {
 	   text-align: center;
@@ -157,7 +158,7 @@ mark {
 	margin-top: 25px;
 } 
 .slogan2 {
-   
+    font-family: "Indie Flower", cursive, sans-serif;
     font-weight: 300;
     font-size: 30px;
     margin-top: 25px;
@@ -289,6 +290,10 @@ footer {
 	 flex-wrap: wrap;
 	 
  }
+ .pub-shot {
+     display: block;
+     margin: auto;
+ }
 .members {
     flex: 1;
 	 text-align: center;
@@ -308,6 +313,7 @@ padding: 5px;
     border: none;
  }
  .btn-sm:hover {
+     background-color: #e6e6e6;
 	 transition: all 1s ease-in-out;
  }
  
@@ -317,6 +323,7 @@ padding: 5px;
 }
 .description {
     flex: 3;
+    flex-wrap: wrap;
 }
 .narrative1 {
 	font-family: "Roboto", sans-serif;	 
@@ -332,7 +339,6 @@ padding: 5px;
     line-height: 14px;
     color: #fafafa;
     background:  #FF6347;
-	margin-bottom: 50px;
      -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
@@ -342,20 +348,24 @@ padding: 5px;
 }
 .download-wiki-pdf {
 	color: #FF6347;
+	text-align: center;
 }
 .download-text {
 	font-family: "Exo", sans-serif;	 
 	font-weight: 500;
-	color: #880000;	    
+	color: #880000;
+	text-align: center;
+	padding-left: 2px;
 }
 /*   Audio files     */
 .audio-container {
     padding: 25px;
     margin: 0;
+    background-color: rgba(255,255,204,0.2);
 }
 .audio-header {
 	font-family: "Exo", sans-serif;
-	font-size: 1.0em;
+	font-size: 25px;
 	font-weight: 500;
 	color:#880000;
 	text-align: center;
@@ -388,10 +398,9 @@ audio {
 /*---------contact page styles----------------*/
 .bookinginfo {
 	  margin: auto;
+	   background-color: rgba(255,255,204,0.2);
   }
-  .hire-section {
-      background-color: rgba(255,255,204,0.2);
-  }
+ 
 .infoheading, .bookingheading {
 	font-family: "Indie Flower", cursive, sans-serif;
     font-weight: 300;
@@ -409,14 +418,9 @@ audio {
       margin: auto;
       max-width: 80%;  
 }
-
 .band-image {
-   max-width: 300px;
-   height: 300px;
-   display: block;
-   margin: auto;
-   padding-right:5px;
- }
+    margin-top: 50px;
+}
 .soc-list {
  list-style-type: none;
  padding-left: 20px;
@@ -429,12 +433,13 @@ audio {
       background-color: rgba(122,179,184,0.0);
   }
   /*------gallery page styles-------------*/
-
+  .gallery-items {
+      background-color: rgba(255,255,204,0.2);
+  }
 
  .gallery-heading {
 	display: flex;
 	flex: 1;
-	justify-content: space-around;
 	font-family: "Exo", sans-serif;
 	font-size: 1.3em;
 	font-weight: 500;
@@ -455,8 +460,8 @@ audio {
 	max-width: 100%;
 	height: auto;
 	padding: 15px;
-	
-	}
+    
+}
 .image-title {
 	font-family: "Robotpo", sans-serif;
 	font-size: 1em;
@@ -464,8 +469,12 @@ audio {
 	color:#880000;
 	text-align: center;
 }
+
 .social-links {
 	 padding-top: 25px;
+ }
+ .gall-foot {
+     background-color:  rgba(255,255,204,0.0);
  }
 /* contact page media query    */
 /* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
