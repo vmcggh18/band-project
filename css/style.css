@@ -444,14 +444,14 @@ audio {
 	font-size: 1.3em;
 	font-weight: 500;
 	color:#880000;
-	text-align: center;
+	justify-content: center;
 }
 
 .gallery {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
-  height: 100vh;
+  min-height: 100%;
   align-items: center;
   justify-content:center;
 }
@@ -474,7 +474,7 @@ audio {
 	 padding-top: 25px;
  }
  .gall-foot {
-     background-color:  rgba(255,255,204,0.0);
+     background-color: rgba(255,255,204,0.0);
  }
 /* contact page media query    */
 /* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
