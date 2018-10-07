@@ -185,7 +185,8 @@ The bootstrap grid system is used for the header and footer layouts.
 Two columns of one third and two thirds cater for an image and booking form, respectively in the mid section of the        
 contact page. The footer holds the information form and social links bar in this same page.
 ## Testing ##
-Testing was done by repeatedly running the code and editing until the desired outcome was achieved.
+Testing was done by repeatedly running the code and editing until the desired outcome was achieved. The code was 
+tested with chrome, firefox and microsoft edge browsers and is responsive for all 3 browsers.
 Google Developer Tools was used extensively to check layout, experiment with colours, add classes and establish 
 padding and margin dimensions.
 By viewing the elements panel of DevTools individual css elements could be changed one element at a time. Styles were 
@@ -247,8 +248,7 @@ the provision of information. The links to the forms were also omitted from the 
 scrolling. The contact page is accessible through the navigation menu at the top. It is also more likely that users 
 will access the forms after using the home, about and songs pages. The social link bar is still retained under the 
 gallery images.
-different browsers.......
-mobile responsive.........
+
 ## Deployment ##
 
 The repo for this application is available at https://github.com/vmcggh18/band-project. The repo can be downloaded
