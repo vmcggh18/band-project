@@ -154,15 +154,17 @@ at this point. [Bootstrap](https://getbootstrap.com/docs/3.3/), [fontawesome](ht
 [hover.css](http://ianlunn.github.io/Hover/) and some [google fonts](https://fonts.google.com/) have been used to 
 enhance the product and reduce the amount of styling to be coded. Some [flexbox](https://cssreference.io/flexbox/) 
 layout has also been used where appropriate. Bootstrap and flexbox easily cater for a design responsive approach 
-where the emphasis is designing for a mobile first approach. Many elements have been repeated meaning that blocks of code can be reused resulting in efficiencies in coding and development.
-Semantic elements such as <form>, <button>, <article>, <header> and <section> are used throughout to enable content 
-to be better defined. In addition class names are applied extensively to further define elements and facilitate 
-style targetting. The span element while non-semantic is used on a few occasions to help style target an inline item. 
+where the emphasis is designing for a mobile first approach. Many elements have been repeated meaning that blocks of 
+code can be reused resulting in efficiencies in coding and development.  
+Semantic elements such as <form> (form), <button> (button), <article> (article), <header> (header) and <section> 
+(section) are used throughout to enable content to be better defined. In addition class names are applied extensively 
+to further define elements and facilitate style targetting. The span element while non-semantic is used on a few 
+occasions to help style target an inline item.  
 Comments are also used within the html and css pages to further signify what elements are involved.
 The bootstrap grid system is used for most of the site facilitating a mobile first approach. Rows are placed within 
 a full width container (container-fluid) to facilitate proper alignment and padding. The rows also enable the 
 creation of horizontal groups of columns and this is useful when designing layout to the rule of  thirds. Some 
-typography from bootstrap is  employed such as <mark>,  text-uppercase and text-center. The list-inline class is 
+typography from bootstrap is  employed such as <mark> (mark), text-uppercase and text-center. The list-inline class is 
 used to list the navigation menu items and the social media links. Clearfix is used in conjunction with inline 
 elements to clear any potentially floated content.  
 The bootstrap img-responsive class is used for the image in the header and the images on the about and contact pages.  
