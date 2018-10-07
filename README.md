@@ -253,7 +253,7 @@ gallery images.
 
 The repo for this application is available at https://github.com/vmcggh18/band-project. The repo can be downloaded
 as a zip for installation into a local ide. When installed locally just select the home page and click run to view
-in the browser.  
+in the browser.    
 Alternatively the application can be viewed as a github page at https://vmcggh18.github.io/band-project.
 
 ## Credits ##
