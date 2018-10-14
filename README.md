@@ -149,22 +149,30 @@ As demand and interest increases the site could be expanded to include an online
 shopping page, etc.
 
 ## Technologies Uesd ##
-HTML and CSS (based on Code Institute tutorials) have been used to produce the site. No JavaScript has been employed 
-at this point. [Bootstrap](https://getbootstrap.com/docs/3.3/), [fontawesome](https://fontawesome.com/),
-[hover.css](http://ianlunn.github.io/Hover/) and some [google fonts](https://fonts.google.com/) have been used to 
-enhance the product and reduce the amount of styling to be coded. Some [flexbox](https://cssreference.io/flexbox/) 
-layout has also been used where appropriate. Bootstrap and flexbox easily cater for a design responsive approach 
-where the emphasis is designing for a mobile first approach. Many elements have been repeated meaning that blocks of 
-code can be reused resulting in efficiencies in coding and development.  
-Semantic elements such as <form> (form), <button> (button), <article> (article), <header> (header) and <section> 
-(section) are used throughout to enable content to be better defined. In addition class names are applied extensively 
-to further define elements and facilitate style targetting. The span element while non-semantic is used on a few 
-occasions to help style target an inline item.  
-Comments are also used within the html and css pages to further signify what elements are involved.
+HTML and CSS have been used to produce this application. No javascript has been employed at this point. The links 
+underlined below list the technologies used to build and enhance this application.  
+[Bootstrap](https://getbootstrap.com/docs/3.3/)  
+Used as the main responsive design framework.  
+[fontawesome](https://fontawesome.com/)  
+Icons used in nav bar, social media section and as button links.  
+[hover.css](http://ianlunn.github.io/Hover/)  
+Used to enhance the logo and nav bar elements.  
+[google fonts](https://fonts.google.com/)  
+Indie+flower, Roboto and Exo font styles used.  
+[flexbox](https://cssreference.io/flexbox/)   
+Some flexbox layout has also been used where appropriate.   
+Bootstrap and flexbox easily cater for a design responsive approach where the emphasis is designing for a mobile 
+first approach. Many elements have been repeated meaning that blocks of code can be reused resulting in efficiencies 
+in coding and development.    
+Semantic elements such as (form), (button), (article), (header) and (section) are used throughout to enable 
+content to be better defined. In addition class names are applied extensively to further define elements and 
+facilitate style targetting. The span element while non-semantic is used on a few occasions to help style target 
+an inline item.    
+Comments are also used within the html and css pages to further signify what elements are involved.  
 The bootstrap grid system is used for most of the site facilitating a mobile first approach. Rows are placed within 
 a full width container (container-fluid) to facilitate proper alignment and padding. The rows also enable the 
 creation of horizontal groups of columns and this is useful when designing layout to the rule of  thirds. Some 
-typography from bootstrap is  employed such as <mark> (mark), text-uppercase and text-center. The list-inline class is 
+typography from bootstrap is  employed such as (mark), text-uppercase and text-center. The list-inline class is 
 used to list the navigation menu items and the social media links. Clearfix is used in conjunction with inline 
 elements to clear any potentially floated content.  
 The bootstrap img-responsive class is used for the image in the header and the images on the about and contact pages.  
@@ -253,21 +261,29 @@ gallery images.
 
 ## Deployment ##
 
-The repo for this application is available at https://github.com/vmcggh18/band-project. The repo can be downloaded
-as a zip for installation into a local ide. When installed locally just select the home page and click run to view
-in the browser.    
+The repo for this application is available at https://github.com/vmcggh18/band-project.    
+The repo can be downloaded as a zip for installation into a local ide. When installed locally just select the home page and click run to view
+in the browser.       
 Alternatively the application can be viewed as a github page at https://vmcggh18.github.io/band-project.
 
 ## Credits ##
 
 ### Content ###
-The text for additional information on the Monkees was obtained from [Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)
+[Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)  
+The text for additional information on the Monkees was obtained from wikipedia.  
 
 ### Media ###
 All media and assets used in this project are as issued under the project brief.
 
 ### Acknowledgements ###
-I received inspiration for this project through following the tutorials from Code Institute.
+Code Institute:  
+I received inspiration for this project through following the tutorials (Modules 1 & 2 HTML & CSS fundamentals) 
+and Module 3: User Centric Front-end Development from Code Institute.    
+[HTML and CSS](https://www.w3schools.com/)      
+The w3schools tutorials on html and css were consulted to get an overview of elements and styles.    
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)    
+The css-tricks website was consulted to get an overview of flexbox.
+
 
 
 
