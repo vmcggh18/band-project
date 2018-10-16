@@ -1,6 +1,6 @@
-# Name: # 
-fed-band-project
-## Overview: ##
+
+# fed-band-project
+
 This project creates a static (front-end only) website for a band to promote their back catalog, and 
 any new material as it becomes available to existing and new fans. The site showcases their music and publicises 
 their availability to perform live, at events such as weddings and Christmas parties. Forms are provided to 
@@ -109,33 +109,33 @@ The social links menu sits at the bottom of the gallery.
 This application comprises several features.
  
 ### Existing Features: ###
-*Feature 1* The brand image logo in the header section enlarges (using hover.css) as if greeting the user (as 
+- Feature 1 -  The brand image logo in the header section enlarges (using hover.css) as if greeting the user (as 
 described in UX above) while also allowing the user to redirect to the home page when clicked.  
-*Feature 2* The nav bar elements pulsate imitating a musical beat (as described in UX above).  
-*Feature 3* A video player on the home page allows the user to watch a nusical video of the band on click._
+- Feature 2 - The nav bar elements pulsate imitating a musical beat (as described in UX above).  
+- Feature 3 - A video player on the home page allows the user to watch a nusical video of the band on click._
 The basic html video player is used and is sufficient for current purposes, as no javascript is used at this stage. 
 The control bar allows for play, pause, volume adjustment and enlargement to full screen size.  
-*Feature 4* Buttons on the home page provide links to audio tunes and the gallery. All a user needs to do is click.  
-*Feature 5* The footer section of the site provides a link to the booking form on the contact page, where the user 
+- Feature 4 - Buttons on the home page provide links to audio tunes and the gallery. All a user needs to do is click.  
+- Feature 5 - The footer section of the site provides a link to the booking form on the contact page, where the user 
 can fill in details, to send a booking request to the band (note: this is a front end only project; so no validation 
 is provided, as the form is not posted to a backend server. Also see **Note** below)  
-*Feature 6* The footer section of the site provides a link to a request for information form on the contact page, 
+- Feature 6 - The footer section of the site provides a link to a request for information form on the contact page, 
 where the user can fill in details, to send an information request to the band (note: this is a front end only 
 project; so no validation is provided, as the form is not posted to a backend server. Also see **Note** below).  
 **Note** For the forms basic textarea forms are used where the user enters name, email and information required. A 
 link name is added to the contact page at the request info section, to ensure that when the information button in 
 the footer is clicked, the user arrives at the information form rather than the top of the page. (note: as this is 
 a front end development only project, the submit buttons on the forms are currently redundant).  
-*Feature 7* The footer provides clickable links to the social media sites facebook, twitter and youtube. Again these 
+- Feature 7 - The footer provides clickable links to the social media sites facebook, twitter and youtube. Again these 
 links are not wired up so they take you to an information page (Watch this Space!).  
-*Feature 8* A download link in the about page allows the user to download more information on the band.  
-*Feature 9* There is an additional link button to the gallery provided under the promotional image on the about page.  
-*Feature 10* An html audio player facilitates the playing of tunes on the songs page.
+- Feature 8 - A download link in the about page allows the user to download more information on the band.  
+- Feature 9 - There is an additional link button to the gallery provided under the promotional image on the about page.  
+- Feature 10 - An html audio player facilitates the playing of tunes on the songs page.
 Four equal bootstrap columns contain the available audio tracks in the audio page. The basic html audio player is 
 used and the controls allow for play, pause and volume adjustment. 
 
 ### Features Left to Implement ###
-The project in its current state presents a front end web application designed and implemented as described in the 
+- The project in its current state presents a front end web application designed and implemented as described in the 
 preceeding paragraphs. As the site develops and grows javascript would need to be introduced to enhance the elements. 
 Some form of slideshow or carousel could be constructed to handle the gallery images or cycle through audio and video
 tracks. One limitation at present is that the current audio continues to play when the next one is clicked. Thus it 
@@ -143,7 +143,7 @@ needs to be paused before playing another. This can be addressed later on with t
 the site develops and expands. More complex media players could be constructed to enhance the experience of finding 
 and playing tracks on the site.
 
-Backend frameworks would need to be introduced so that forms and social media links are not redundant. In this 
+- Backend frameworks would need to be introduced so that forms and social media links are not redundant. In this 
 instance both frontend and server end validation would need to be developed and introduced.
 As demand and interest increases the site could be expanded to include an online newsletter, blog page, 
 shopping page, etc.
@@ -151,49 +151,52 @@ shopping page, etc.
 ## Technologies Uesd ##
 HTML and CSS have been used to produce this application. No javascript has been employed at this point. The links 
 underlined below list the technologies used to build and enhance this application.  
-[Bootstrap](https://getbootstrap.com/docs/3.3/)  
-Used as the main responsive design framework.  
-[fontawesome](https://fontawesome.com/)  
-Icons used in nav bar, social media section and as button links.  
-[hover.css](http://ianlunn.github.io/Hover/)  
-Used to enhance the logo and nav bar elements.  
-[google fonts](https://fonts.google.com/)  
-Indie+flower, Roboto and Exo font styles used.  
-[flexbox](https://cssreference.io/flexbox/)   
-Some flexbox layout has also been used where appropriate.   
-Bootstrap and flexbox easily cater for a design responsive approach where the emphasis is designing for a mobile 
+- [Bootstrap](https://getbootstrap.com/docs/3.3/)  
+    - Used as the main responsive design framework.  
+- [fontawesome](https://fontawesome.com/)  
+     - Icons used in nav bar, social media section and as button links.  
+- [hover.css](http://ianlunn.github.io/Hover/)  
+    - Used to enhance the logo and nav bar elements.  
+- [google fonts](https://fonts.google.com/)  
+    - Indie+flower, Roboto and Exo font styles used.  
+- [flexbox](https://cssreference.io/flexbox/)   
+    - Some flexbox layout has also been used where appropriate. 
+ 
+- Bootstrap and flexbox easily cater for a design responsive approach where the emphasis is designing for a mobile 
 first approach. Many elements have been repeated meaning that blocks of code can be reused resulting in efficiencies 
 in coding and development.    
-Semantic elements such as (form), (button), (article), (header) and (section) are used throughout to enable 
+- Semantic elements such as (form), (button), (article), (header) and (section) are used throughout to enable 
 content to be better defined. In addition class names are applied extensively to further define elements and 
 facilitate style targetting. The span element while non-semantic is used on a few occasions to help style target 
 an inline item.    
-Comments are also used within the html and css pages to further signify what elements are involved.  
-The bootstrap grid system is used for most of the site facilitating a mobile first approach. Rows are placed within 
+- Comments are also used within the html and css pages to further signify what elements are involved.  
+- The bootstrap grid system is used for most of the site facilitating a mobile first approach. Rows are placed within 
 a full width container (container-fluid) to facilitate proper alignment and padding. The rows also enable the 
 creation of horizontal groups of columns and this is useful when designing layout to the rule of  thirds. Some 
 typography from bootstrap is  employed such as (mark), text-uppercase and text-center. The list-inline class is 
 used to list the navigation menu items and the social media links. Clearfix is used in conjunction with inline 
 elements to clear any potentially floated content.  
-The bootstrap img-responsive class is used for the image in the header and the images on the about and contact pages.  
+- The bootstrap img-responsive class is used for the image in the header and the images on the about and contact pages.  
 This minimises the need for styling of these images. The img-circle class was used in the gallery to give a portrait 
 look to the individual band member images.  
-Other properties such as max-width: 100%; height: auto; display: block; and center-block are all used to centrally 
+- Other properties such as max-width: 100%; height: auto; display: block; and center-block are all used to centrally 
 position other images and blocks of media files and text.  
-The button classes btn-success and  btn-info are used in conjunction with the forms (enquire about hiring and request 
+- The button classes btn-success and  btn-info are used in conjunction with the forms (enquire about hiring and request 
 info respectively), representing conventional colours that are recognisable. A btn-custom class is used for the 
 links on the home page, so they can be styled in the general theme of the site.  A btn-sm class is used for the link 
 to the gallery. This button class facilitates a block of colour on hover.  
-The flexbox grid system is used for the mid section of the about page. Flexbox easily fits between two bootstrap 
+- The flexbox grid system is used for the mid section of the about page. Flexbox easily fits between two bootstrap 
 grid sections and minimises the amount of code needed to achieve the required layout. Elements are easily styled 
 with the flex property and responsive design is achieved by using the flex-wrap property.  
-A simple flex grid layout is used for the gallery section layout.  The images are used as provided and the use of 
+- A simple flex grid layout is used for the gallery section layout.  The images are used as provided and the use of 
 the justify-content align-center properties, allows a neat layout regardless of size. When future images become 
 available the order property can be used to display them first, if so desired. (note: Jscript has not been used on 
 this project at this stage, so a sldeshow feature has not yet been considered).   
-The bootstrap grid system is used for the header and footer layouts.   
-Two columns of one third and two thirds cater for an image and booking form, respectively in the mid section of the        
-contact page. The footer holds the information form and social links bar in this same page.
+- The bootstrap grid system is used for the header and footer layouts.   
+- Two columns of one third and two thirds cater for an image and booking form, respectively in the mid section of the        
+contact page. 
+- The footer holds the information form and social links bar in this same page.
+
 ## Testing ##
 Testing was done by repeatedly running the code and editing until the desired outcome was achieved. The code was 
 tested with chrome, firefox and microsoft edge browsers and is responsive for all 3 browsers.  
@@ -269,19 +272,19 @@ Alternatively the application can be viewed as a github page at https://vmcggh18
 ## Credits ##
 
 ### Content ###
-[Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)  
+- [Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)  
 The text for additional information on the Monkees was obtained from wikipedia.  
 
 ### Media ###
-All media and assets used in this project are as issued under the project brief.
+- All media and assets used in this project are as issued under the project brief.
 
 ### Acknowledgements ###
-Code Institute:  
+- Code Institute:  
 I received inspiration for this project through following the tutorials (Modules 1 & 2 HTML & CSS fundamentals) 
 and Module 3: User Centric Front-end Development from Code Institute.    
-[HTML and CSS](https://www.w3schools.com/)      
+- [HTML and CSS](https://www.w3schools.com/)      
 The w3schools tutorials on html and css were consulted to get an overview of elements and styles.    
-[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)    
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)    
 The css-tricks website was consulted to get an overview of flexbox.
 
 
