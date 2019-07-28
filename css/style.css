@@ -94,15 +94,19 @@ header {
     font-family: "Exo", sans-serif;
 }
 
-.menuitem {
+.menuitem, .nav-item {
     height: 120px;
     text-align: center;
     padding: 0;
 }
-.menuitem:hover {
+.menuitem:hover, .nav-item:hover {
     background: rgba(122,179,184,0.2);
 }
-.menuitem a {
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.menuitem a, .nav-link {
     width: 100%;
     text-decoration: none;
     color: 	#8B0000;
@@ -114,7 +118,12 @@ header {
     color: #FF6347;
     font-size: 26px;
 }
-.menuitem span {
+.b4menuitem a i, .nav-link i  {
+    padding-top: 22px;
+    color: #FF6347;
+    font-size: 26px;
+}
+.menuitem span, .nav-item span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -433,10 +442,51 @@ audio {
       background-color: rgba(122,179,184,0.0);
   }
   /*------gallery page styles-------------*/
-  .gallery-items {
-      background-color: rgba(255,255,204,0.2);
-  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-inner > .carousel-item {
+    height: 100%;
+    width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* turn off bootstrap default svg chevrons */
+  background-image: none;
 
+  /* override bootstraps fixed size */
+  width: auto;
+  height: auto;
+
+  /* extend FontAwesome */
+  @extend .fa;
+}
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-caption {
+  /* add a text shadow to the chevrons and caption (inner text) to make them visible on white backgrounds */
+  text-shadow: 0 0 0.8rem black;
+}
+.carousel-control-prev {
+  /* extend FontAwesome left chevron*/
+  @extend .fa-chevron-left;
+}
+.carousel-control-next {
+  /* extend FontAwesome right chevron*/
+  @extend .fa-chevron-right;
+}
+.carousel-indicators li {
+    /* add a box shadow to the indicators to make them visible on white backgrounds */
+    box-shadow: 0 1px 0.4rem rgba(0, 0, 0, 0.5);
+  }
+  .fa-chevron-left, .fa-chevron-right {
+      font-size: 2.0em;
+      color: #880000;
+  }
+  .carousel-control-next, .carousel-control-prev {
+      width: 60%
+  }
  .gallery-heading {
 	display: flex;
 	flex: 1;
@@ -446,47 +496,58 @@ audio {
 	color:#880000;
 	justify-content: center;
 }
-
-.gallery {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  min-height: 100%;
-  align-items: center;
-  justify-content:center;
+.caption-text {
+	font-family: "Exo", sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #ffff99;
 }
-.gal-image img {
-	width: 300px;
-	max-width: 100%;
-	height: auto;
-	padding: 15px;
-    
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+	background-color: 	#FFFFE0;;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
 }
-.image-title {
-	font-family: "Robotpo", sans-serif;
-	font-size: 1em;
-	font-weight: 300;
-	color:#880000;
-	text-align: center;
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background-color: #ffff99;
 }
-
 .social-links {
 	 padding-top: 25px;
  }
  .gall-foot {
      background-color: rgba(255,255,204,0.0);
- }
+ } */
 /* contact page media query    */
 /* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
 @media screen and (min-width:767px) {
-.nav-bar {
-    display: block;
-    width: 33%;
-    margin: auto;
-}
 /*reduces form width to 70% on larger screen sizes*/
 .center-booking-form, .center-infoform {
       margin: 0 auto;
       max-width: 70%;  
 }
 }
+@media screen and (max-width:767px) {
+    /*reduces form width to 70% on larger screen sizes*/
+    a.hvr-pulse.nav-link, .nav-item {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%
+    }
+    .gall-head {
+        font-size: 1.0em;
+    }
+    }
