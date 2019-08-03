@@ -37,19 +37,16 @@ header {
 .heading {
     margin-left: 15px;
 }
-
-/*Image hover effect   */
-
-.center-block {
-   display: block;
-   margin: auto; 
-}
-
+/*-----------Image hover effect--------*/
 .logo-img {
-	margin-top: 40px;
-	opacity: 0.7;
+    opacity: 0.7;
+    max-width: 100%;
+    height: auto;
+	display: block;
+	position: relative;
+	margin: auto;
+	padding-top: 25px;
 }
-
 .hovereffect img {
     transition: all .5s linear;
     -moz-transition: all .5s linear;
@@ -68,9 +65,8 @@ header {
 .slogan1 {
     font-family: "Indie Flower", cursive, sans-serif;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 250%;
     margin-top: 25px;
-	padding-right: 15px;
 	text-align: center;
     color: rgb(255, 0, 0);
 	text-shadow: 4px 4px 4px #aaa;
@@ -78,9 +74,8 @@ header {
 .names {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 175%;
     margin-top: 30px;
-	padding-right: 25px;
     margin-bottom: 20px;
 	text-align: center;
     color: rgb(128, 128, 128);
@@ -106,20 +101,15 @@ header {
     padding-left: 50px;
     padding-right: 50px;
 }
-.menuitem a, .nav-link {
+.menuitem a, .nav-link a {
     width: 100%;
     text-decoration: none;
     color: 	#8B0000;
     height: 120px;
 }
-.menuitem a i {
+.menuitem a i, .nav-link i {
     padding-top: 22px;
     display: block;
-    color: #FF6347;
-    font-size: 26px;
-}
-.b4menuitem a i, .nav-link i  {
-    padding-top: 22px;
     color: #FF6347;
     font-size: 26px;
 }
@@ -133,6 +123,10 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+.menu-text {
+    color: 	#8B0000;
+}
+    
  /*---------home page mid section -------*/
 .brand2 {
 	padding-bottom: 25px;
@@ -160,7 +154,7 @@ mark {
 .years-sales {
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 200%;
 	text-align: center;
     color: rgb(128, 128, 128);
 	margin-bottom: 25px;
@@ -169,7 +163,7 @@ mark {
 .slogan2 {
     font-family: "Indie Flower", cursive, sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 175%;
     margin-top: 25px;
 	text-align: center;
     color: rgb(255, 0, 0);
@@ -249,7 +243,8 @@ footer {
 		margin-top: 50px;
 }
 .follow-request {
-		text-align: center;
+        text-align: center;
+        padding-top: 25px;
 	}
 .btn-lg {
 		border-radius: 50%;
@@ -266,7 +261,7 @@ footer {
 	text-decoration: none;
 }
 .social-links {
-    padding-bottom: 15px;
+    padding-top: 20px;
 }
 .social-links li a i {
     width: 25px;
@@ -285,35 +280,35 @@ footer {
  .social-links li a i:hover {
      background: #6495ED;
  }
- 
+  
  /*-----About Page  styles-------------*/
  .about-the-band {
      background-color: rgba(255,255,204,0.2);
      padding: 0;
-     margin: 0;
-    
+     /* margin: 0; */
+     display:flex;
+	 margin: auto; 
  }
- .background-info {
-	 margin: auto;
-	 display: flex;
-	 flex-wrap: wrap;
-	 
- }
- .pub-shot {
-     display: block;
+
+ .members {
+     display:block;
      margin: auto;
  }
-.members {
-    flex: 1;
+/* .members { */
+.pub-shot {   
+     flex: 1;
+     display:block;
+     margin: auto;
 	 text-align: center;
-	 padding-left: 25px;
-	 padding-top: 30px;
-	 padding-right: 25px;
+ }
+ .img-band {
+    display:block;
+    margin: auto;
  }
  figcaption {
-font-family: "Roboto", sans-serif;	 
-font-weight: 500;
-padding: 5px;
+    font-family: "Roboto", sans-serif;	 
+    font-weight: 500;
+    padding: 5px;
  }
  .btn-sm {
 	background-color: rgba(255,255,204,0.3);
@@ -332,7 +327,6 @@ padding: 5px;
 }
 .description {
     flex: 3;
-    flex-wrap: wrap;
 }
 .narrative1 {
 	font-family: "Roboto", sans-serif;	 
@@ -366,7 +360,7 @@ padding: 5px;
 	text-align: center;
 	padding-left: 2px;
 }
-/*   Audio files     */
+/*------ Audio files------ */
 .audio-container {
     padding: 25px;
     margin: 0;
@@ -446,6 +440,9 @@ audio {
     max-width: 100%;
     height: auto;
 }
+.cover2 {
+    padding-left: 25px;
+}
 .carousel-inner > .carousel-item {
     height: 100%;
     width: 100%;
@@ -491,7 +488,7 @@ audio {
 	display: flex;
 	flex: 1;
 	font-family: "Exo", sans-serif;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: 500;
 	color:#880000;
 	justify-content: center;
@@ -520,15 +517,20 @@ audio {
     margin: 5px;
     background-color: #ffff99;
 }
-.social-links {
-	 padding-top: 25px;
- }
- .gall-foot {
-     background-color: rgba(255,255,204,0.0);
- } */
+.gall-head {
+    font-size: 1.2em;
+}
+
+
+@media screen and (min-width:767px) {
 /* contact page media query    */
 /* Allows social link nav bar to sit vertically with screen sizes larger than 767px  */
-@media screen and (min-width:767px) {
+    .nav-bar { 
+        float: none;
+        display: block;
+        width: 25%; 
+        margin: auto; 
+        }  
 /*reduces form width to 70% on larger screen sizes*/
 .center-booking-form, .center-infoform {
       margin: 0 auto;
@@ -536,7 +538,7 @@ audio {
 }
 }
 @media screen and (max-width:767px) {
-    /*reduces form width to 70% on larger screen sizes*/
+    /*----- applies formats to nav links on smaller screens------*/
     a.hvr-pulse.nav-link, .nav-item {
         padding-left: 25px;
         padding-right: 25px;
@@ -544,10 +546,16 @@ audio {
     .navbar-nav {
         flex-direction: row;
     }
+    /*-----spaces the prev, next controls-----*/
     .carousel-control-next, .carousel-control-prev {
         width: 10%
     }
+    /*----reduces heading size to fit horizontally-----*/
     .gall-head {
         font-size: 1.0em;
     }
+    /*-----stacks about-the-band-section on smaller screens----*/
+    .about-the-band {
+        flex-direction: column;
     }
+}

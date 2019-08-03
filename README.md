@@ -103,8 +103,7 @@ The contact page keeps the same header section as the previous pages. The mid se
 image occupying the first third and the available for hire form which takes up the remaining two thirds to the right. 
 There is no footer on this page. The section is continued with the request for information form in the first two 
 thirds and the social links bar in the last third.  
-The gallery page maintains the same consistent header, while the labelled images dominate the rest of the page.  
-The social links menu sits at the bottom of the gallery.
+The gallery page maintains the same consistent header, with a carousel slide show occupying the mid section of the page.  It also contains the normal footer including the social links menu.
 ## Features: ##
 This application comprises several features.
  
@@ -133,12 +132,12 @@ links are not wired up so they take you to an information page (Watch this Space
 - Feature 10 - An html audio player facilitates the playing of tunes on the songs page.
 Four equal bootstrap columns contain the available audio tracks in the audio page. The basic html audio player is 
 used and the controls allow for play, pause and volume adjustment. 
+- Feature 11 - A bootstrap 4 carousel is used to present band images. It contains both indicator links and prev, next links.
 
 ### Features Left to Implement ###
 - The project in its current state presents a front end web application designed and implemented as described in the 
 preceeding paragraphs. As the site develops and grows javascript would need to be introduced to enhance the elements. 
-Some form of slideshow or carousel could be constructed to handle the gallery images or cycle through audio and video
-tracks. One limitation at present is that the current audio continues to play when the next one is clicked. Thus it 
+One limitation at present is that the current audio continues to play when the next one is clicked. Thus it 
 needs to be paused before playing another. This can be addressed later on with the introduction of javascript as 
 the site develops and expands. More complex media players could be constructed to enhance the experience of finding 
 and playing tracks on the site.
@@ -149,10 +148,10 @@ As demand and interest increases the site could be expanded to include an online
 shopping page, etc.
 
 ## Technologies Uesd ##
-HTML and CSS have been used to produce this application. No javascript has been employed at this point. The links 
+HTML and CSS have been used to produce this application. Some javascript has been employed to trigger the slides in the carousel. The links 
 underlined below list the technologies used to build and enhance this application.  
 - [Bootstrap](https://getbootstrap.com/docs/3.3/)  
-    - Used as the main responsive design framework.  
+    - Used as the main responsive design framework. Bootstrap 4 is used for the carousel and is applied to all elements on that page.
 - [fontawesome](https://fontawesome.com/)  
      - Icons used in nav bar, social media section and as button links.  
 - [hover.css](http://ianlunn.github.io/Hover/)  
@@ -196,6 +195,7 @@ this project at this stage, so a sldeshow feature has not yet been considered).
 - Two columns of one third and two thirds cater for an image and booking form, respectively in the mid section of the        
 contact page. 
 - The footer holds the information form and social links bar in this same page.
+- Bootstrap 4 is employed on the gallery page to facilitate the use of a carousel slide to shoe images. Bootstrap 4 is used for all elements on this page including the header and footer sections. This page is also fully mobile responsive.
 
 ## Testing ##
 Testing was done by repeatedly running the code and editing until the desired outcome was achieved. The code was 
@@ -257,10 +257,8 @@ the contact page it was realised that links to the forms were not required, bein
 social links bar is retained at the foot of the page. The form of the social links bar was changed to look like the 
 navigation menu bar but sits vertically on larger screen sizes. This was done to create a feature to better fill the 
 space on larger screens, rather than introduce another feature that may not blend well with a page concerned with 
-the provision of information. The links to the forms were also omitted from the final gallery page to minimise 
-scrolling. The contact page is accessible through the navigation menu at the top. It is also more likely that users 
-will access the forms after using the home, about and songs pages. The social link bar is still retained under the 
-gallery images.
+the provision of information. The contact page is accessible through the navigation menu at the top. It is also more likely that users 
+will access the forms after using the home, about and songs pages. The first version had a simple gallery page where the images were placed on the page. The gallery viewe is now replaced with a carousel slide.
 
 ## Deployment ##
 
